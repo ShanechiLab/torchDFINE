@@ -1,0 +1,11 @@
+dill==0.3.4
+matplotlib==3.5.1
+numpy==1.19.5
+scipy==1.5.4
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.11.0+cu113
+torchmetrics==0.8.0
+tqdm==4.62.3
+yacs==0.1.6
+tensorboard
+scikit-learn # for the tutorial
