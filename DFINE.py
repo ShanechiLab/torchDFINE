@@ -302,7 +302,7 @@ class DFINE(nn.Module):
             A = A.repeat(num_seq, num_steps, 1, 1)
 
         if len(C.shape) == 2:
-            A = A.repeat(num_seq, num_steps, 1, 1)
+            C = C.repeat(num_seq, num_steps, 1, 1)
 
         # Here is where k-step ahead prediction is iteratively performed
         x_pred_k = x_filter[:, :-k, ...] # [x_k|0, x_{k+1}|1, ..., x_{T}|{T-k}]
